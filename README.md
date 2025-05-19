@@ -43,7 +43,7 @@ The xmr-miner-full and ada-net-full sections of the project both have a main.py 
 	-	You should then be able to interact with that wallet, executing transactions and pushing those funds to the Cardano staking pool, generating profits from their platform as well
 	-	The program is capable of connecting to a Cardano Node, which with further design will be able to be adjustable by the user as they wish
 
-To run the program I would recommend turning off your VPN, but it with works with it on then more power to you!
+To run the program I would recommend turning off your VPN, but if it works with it on then more power to you!
 
 
 At the moment the project lacks complete cohesion, meaning the 3 sections are not communicating at this point. The first and third sections (1&3) possess complete functionality.
@@ -68,7 +68,7 @@ If scaled properly, and the data transfer is optimal, there is notable potential
 
 XMR2ADA: CLOSING REMARKS
 
-The XMR-2-ADA has the capability to generate reasonable profits for those with the resources, and if scaled properly can provide exceptional support to those even without the advanced technological gear to optimize their profits. 
+The XMR2ADA has the capability to generate reasonable profits for those with the resources, and if scaled properly can provide exceptional support to those even without the advanced technological gear to optimize their profits. 
 
 I hope the design and production of this type of product will inspire others to look for ways to support others who are serious need: Africans are in serious need of support, and it's important that those of us who have the knowledge and access to resources provide a path for others to experience
 health and happiness. This website for example, https://www.children.org/global-poverty/global-poverty-facts/africa, outlines that about 48% of sub-saharan Africans live in poverty. Understanding this, it is important that people who have the opportunity, align themselves on a path to support others.
@@ -80,6 +80,16 @@ I am sincerely thankful for the opportunity to participate in this event, and I 
 
 SIDENOTE:  I'm trying to find a way to share my program, it's quite large, has a size of about 200GB after being zipped and all.  I'm currently looking into ways to solve this problem, Thank you!
 
+SIDENOTE UPDATE: I removed the mainnet data from the source code so that I could push the project to the repo, the source code remains the same but the project won't be able to load without downloading the mainnet into the project and configuring it as necessary. 
+If you're able to install it, as it is a large dataset, there are some commands you can run to install it:
+This command is an example that stores the mainnet informaiton: 
+./monero-exs/monerod --data-dir ./mainnet-data --log-file ./mainnet-data/monerod-log --p2p-bind-port 18080 --rpc-bind-port 18081 
 
+-> --data-dir: where you store the blockchian and peer info within the project
+-> --log-file: saves the logs locally within the project
+-> --p2p-bind-port 18080: port for syncing iwth other monero nodes (default)
+-> --rpc-bind-port 18081: port for wallet connections (default)
+
+If you have the available storage, the above command should work, but keep it mind the download can take substantial time (I also included it for informational/educational purposes)
 
 	
