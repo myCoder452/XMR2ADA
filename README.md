@@ -85,7 +85,7 @@ If you're able to install it, as it is a large dataset, there are some commands 
 This command is an example that stores the mainnet informaiton: 
 ./monero-exs/monerod --data-dir ./mainnet-data --log-file ./mainnet-data/monerod-log --p2p-bind-port 18080 --rpc-bind-port 18081 
 
--> --data-dir: where you store the blockchian and peer info within the project
+-> --data-dir: where you store the blockchain and peer info within the project
 -> --log-file: saves the logs locally within the project
 -> --p2p-bind-port 18080: port for syncing iwth other monero nodes (default)
 -> --rpc-bind-port 18081: port for wallet connections (default)
