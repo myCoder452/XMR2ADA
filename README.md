@@ -90,6 +90,13 @@ This command is an example that stores the mainnet informaiton:
 -> --p2p-bind-port 18080: port for syncing iwth other monero nodes (default)
 -> --rpc-bind-port 18081: port for wallet connections (default)
 
+
+UPDATED README - FINAL SUBMISSION:
+Pushing the code to github was not cooperating, tried many methods and it was not pushing, so I have shared the code in a "MEGA" folder, the link should be easily accessible:
+https://mega.nz/folder/TsZUAYZb#liMD5GjMtW6H_d_ya6dkcQ
+
+THANK YOU!
+
 If you have the available storage, the above command should work, but keep it mind the download can take substantial time (I also included it for informational/educational purposes)
 
 	
