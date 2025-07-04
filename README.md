@@ -8,6 +8,28 @@ https://mega.nz/folder/TsZUAYZb#liMD5GjMtW6H_d_ya6dkcQ
 
 IN ADDITION, notable progress was made in merging the GUIs, but for submission purposes in demonstrating functionality, they were demonstrated as two.
 
+
+UPDATED README AGAIN - FINAL SUBMISSION:
+
+To run project and tests:
+TESTNODE test:
+1. cd into the ada_net_full folder
+	- cd ada_net_full
+
+2. Run the following command, the testnet will begin to establish itself:
+	-  ./cardano-exes/cardano-node run --topology testnet-json/node-topology.json --database-path db/ --socket-path node-ipc/node.socket --port 3001 --config testnet-json/config.json 
+
+XMR2ADA GUI display:
+1. Go into the already built XMR (xmr) folder:
+	- cd xmr
+
+2. Install entire mainnet (unless you haven’t already), run the following command:
+	- ./monero-exs/monerod --data-dir ./mainnet-data --log-file ./mainnet-data/monerod-log --p2p-bind-port 18080 --rpc-bind-port 18081
+
+3. Make sure you are already in the submitted pre-built xmr folder, and run the main.py file that is in there:
+	- run main.py
+
+
 THANK YOU!
 
 
