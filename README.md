@@ -10,6 +10,7 @@ IN ADDITION, notable progress was made in merging the GUIs, but for submission p
 
 
 UPDATED README AGAIN - FINAL SUBMISSION:
+Generating my own "Deployed Live/Demo Link" is difficult for this project considering the mainnet for the Monero Network can take up over 200GB of data, with that being said, I provided the steps below as to how to setup the project for yourself.
 
 To run project and tests:
 TESTNODE test:
