@@ -5,9 +5,6 @@ ABC SUBMISSION
 UPDATED README - FINAL SUBMISSION:
 Pushing the code to github was not cooperating, tried many methods and it was not pushing, so I have shared the code in a "MEGA" folder, the link should be easily accessible:
 Updated Link: https://mega.nz/folder/25IlCLyI#uY9brtX4XG8zmQIsHPdZgw
-Outdated Link: https://mega.nz/folder/TsZUAYZb#liMD5GjMtW6H_d_ya6dkcQ
-
-IN ADDITION, notable progress was made in merging the GUIs, but for submission purposes in demonstrating functionality, they were demonstrated as two.
 
 
 UPDATED README AGAIN - FINAL SUBMISSION:
@@ -15,22 +12,31 @@ I was able to completely update the code and merge the two GUIs, this took notab
 
 Generating my own "Deployed Live/Demo Link" is difficult for this project considering the mainnet for the Monero Network can take up over 200GB of data, with that being said, I provided the steps below as to how to setup the project for yourself.
 
-To run project and tests:
-TESTNODE test:
-1. cd into the ada_net_full folder
+TO RUN THE PROJECT AND TESTS:
+Extract all files from their .zip status and into the same folder, in the format outlined below:
+Example Format:
+	- mainFolder
+ 		- ada_net_full
+   		- swap
+		- xmr
+  
+CARDANO TESTNET TEST:
+1. cd into the ada_net_full folder, run this command:
 	- cd ada_net_full
 
 2. Run the following command, the testnet will begin to establish itself:
 	-  ./cardano-exes/cardano-node run --topology testnet-json/node-topology.json --database-path db/ --socket-path node-ipc/node.socket --port 3001 --config testnet-json/config.json 
 
-XMR2ADA GUI display:
-1. Go into the already built XMR (xmr) folder:
+
+
+XMR2ADA GUI COMPLETE DISPLAY:
+1. Go into the already built XMR (xmr) folder, run this command:
 	- cd xmr
 
-2. Install entire mainnet (unless you haven’t already), run the following command:
+2. Install entire Monero mainnet (unless you haven’t already), run the following command, it will generate a folder for you called "mainnet-data" within the unzipped xmr folder:
 	- ./monero-exs/monerod --data-dir ./mainnet-data --log-file ./mainnet-data/monerod-log --p2p-bind-port 18080 --rpc-bind-port 18081
 
-3. Make sure you are already in the submitted pre-built xmr folder, and run the main.py file that is in there:
+3. Make sure you are already in the submitted xmr folder that I built, and in VSCode run the main.py file that is in there:
 	- run main.py
 
 
