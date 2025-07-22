@@ -16,16 +16,22 @@ Generating my own "Deployed Live/Demo Link" is difficult for this project consid
 TO RUN THE PROJECT AND TESTS:
 Extract all files from their .zip status and into the same folder alongside eachother, in the format outlined below:
 Example Format:
+
 	- mainFolder: 
+ 
  		- ada_net_full
+   
    		- swap
+     
 		- xmr
   
 CARDANO TESTNET TEST:
 1. cd into the ada_net_full folder, run this command:
+   
 	- cd ada_net_full
 
 2. Run the following command, the testnet will begin to establish itself:
+
 	-  ./cardano-exes/cardano-node run --topology testnet-json/node-topology.json --database-path db/ --socket-path node-ipc/node.socket --port 3001 --config testnet-json/config.json 
 
 
